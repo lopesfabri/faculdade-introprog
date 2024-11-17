@@ -10,7 +10,7 @@ int main() {
         "\0"
    };
 
-    int i, carta;
+    int carta;
     printf("Digite um numero:");
     scanf("%d", &carta);
 
