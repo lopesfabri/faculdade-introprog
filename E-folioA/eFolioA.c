@@ -32,7 +32,8 @@ void iniciarJogo()
             break;
     }
 
-    if (verificarSequenciaVitoria(sequencia, i, K)) {
+    if (verificarSequenciaVitoria(sequencia, i, K))
+    {
         printf("Sequencia vitoria\n");
         return;
     }
